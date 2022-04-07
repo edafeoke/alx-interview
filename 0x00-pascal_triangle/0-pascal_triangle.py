@@ -3,7 +3,12 @@
 A module that contains the pascal_triangle function
 '''
 
-from math import factorial
+
+def factorial(n):
+    '''Returns the factorial of a number'''
+    if n < 1:
+        return 1
+    return n * factorial(n - 1)
 
 
 def combination(a, b):
