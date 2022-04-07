@@ -9,6 +9,7 @@ from math import factorial
 def combination(a, b):
     return int(factorial(a) / (factorial(b) * factorial(a - b)))
 
+
 def pascal_triangle(n):
     '''
     A function that returns a list of lists of integers
