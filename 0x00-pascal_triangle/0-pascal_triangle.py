@@ -7,6 +7,7 @@ from math import factorial
 
 
 def combination(a, b):
+    '''Returns nCr of two arguments'''
     return int(factorial(a) / (factorial(b) * factorial(a - b)))
 
 
